@@ -9,6 +9,6 @@ col_a = list(map (getvalue, sheet['A'][1:]))
 col_c = list(map (getvalue, sheet['C'][1:]))
 col_d = list(map (getvalue, sheet['D'][1:]))
 
-pyplot.plot(col_a, col_c, label="Раз")
-pyplot.plot(col_a, col_d, label="Два")
+pyplot.plot(col_a, col_c, 'red', label='test', linewidth=2)
+pyplot.plot(col_a, col_d, 'black', label="Два")
 pyplot.show()
