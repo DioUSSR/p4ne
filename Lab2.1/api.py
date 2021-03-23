@@ -1,4 +1,4 @@
-import requests, json, pprint
+import requests, pprint
 
 host = '10.31.70.210'
 login = 'restapi'
